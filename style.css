@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Exo 2', sans-serif;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.container, input, button {
+  width: min(90vw, 480px);
+  border: 1px solid black;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.container h2, #outputContainer{
+  text-align: center;
+}
+
+input, button {
+  font-size: .9rem;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
